@@ -8,6 +8,20 @@ Ce TD permet de faire communiquer 2 ESP entre eux (1 master et 1 slave). Le mast
 1 Breadboard
 # Premier exercice
 L'objectif de cet exercice est de faire clignoter la LED de l'ESP une fois par seconde.
+
+int LED_BUILTIN = 22;
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(1000);                       
+}
+
 # Deuxième exercice
 Dans cet exercice, on va coupler les 2 ESP entre eux en configurant l'un comme master et l'autre comme slave.
 # Troisième exercice
