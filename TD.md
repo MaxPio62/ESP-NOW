@@ -301,4 +301,4 @@ L'objectif de cet exercice est de modifier le code de l'exercice précédent pou
 
 j'allume 1 ESP, il fait clignoter sa LED une fois par seconde
 
-j'allume un second ESP, il se connecte au réseau MESH et de façon synchro, les 2 ESP font cligonter leur LED deux fois par seconde
+j'allume un second ESP, il se connecte au réseau MESH et de façon synchro, les 2 ESP font clignoter leur LED deux fois par seconde
